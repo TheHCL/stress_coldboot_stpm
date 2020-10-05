@@ -1,9 +1,9 @@
 # STPM Coldboot Auto
 
 ## Note
-**Full_HD scaling should be 125% **
+**Full_HD scaling should be 125%**
 
-**4K resolution scaling should be 200% **
+**4K resolution scaling should be 200%**
 
 
 ## How to use it
