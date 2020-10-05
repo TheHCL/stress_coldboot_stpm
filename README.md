@@ -1,8 +1,14 @@
 # STPM Coldboot Auto
+
+## Note
+** Full_HD scaling should be 125% **
+
+** 4K resolution scaling should be 200% **
+
+
 ## How to use it
 * Run stress_coldboot_STPM.exe as administrator.
-** <mark>Full_HD scaling should be 125%</mark>
-** <mark>4K resolution scaling should be 200%</mark>
+
 
 ## Folder hierarchy
 * STPM_V2.5.1.0(Build_01021743)
