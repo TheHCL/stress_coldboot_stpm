@@ -17,6 +17,7 @@
 * STPM_V2.5.1.0(Build_01021743)
   * ITPM_DriverUpdate_20190313
 * pic
+* clear_log.cmd
 * stress_coldboot_STPM.exe
 
 ## What is the application capable of ?
