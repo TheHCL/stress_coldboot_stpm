@@ -4,8 +4,15 @@ import pyautogui as p
 import sys
 import time
 
-def Full_HD():
+def event_log_clean():
+	os.chdir(locate)
+	os.system("clear_log.cmd")
+	print("event log has been deleted.")
+	
 
+def Full_HD():
+	os.chdir(STPM_ini)
+	driver_update_bool = os.path.exists("exist.txt")
 	if driver_update_bool == False:
 		filebool = open("exist.txt","w")
 		filebool.write("1")
@@ -163,6 +170,8 @@ def Full_HD():
 
 
 def Four_K():
+	os.chdir(STPM_ini)
+	driver_update_bool = os.path.exists("exist.txt")
 	if driver_update_bool == False:
 		filebool = open("exist.txt","w")
 		filebool.write("1")
@@ -346,12 +355,14 @@ locate = os.getcwd() #get current directory
 STPM = locate+"/STPM_V2.5.1.0(Build_01021743)"
 STPM_ini = STPM+"/ITPM_DriverUpdate_20190313"
 plan = STPM+"/PLAN"
-os.chdir(STPM_ini)
-driver_update_bool = os.path.exists("exist.txt")
+
 if screen == (1920,1080):
+	event_log_clean()
 	Full_HD()
-else:
+if screen == (3840,2160):
+	event_log_clean()
 	Four_K()
+	
 
 
 
