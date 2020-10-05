@@ -2,7 +2,7 @@
 
 ## Note
 
-**Should set the scaling in advanced to prevent unexpected situations.**
+**Should set the scaling in advance to prevent unexpected situations.**
 
 **Full_HD scaling should be 125%**
 
